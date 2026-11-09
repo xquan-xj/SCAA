@@ -1,0 +1,290 @@
+[
+  {
+    "method": "full_scaa_dual32",
+    "seed": 2085,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "5dd48efb5f0680c7a8ac7ad681bb825d1d2a6d1120de608ec0b05d4b10e53931",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "5d8ec1425162f4b0590f30bf2f909a1c9dbe7b5b760a632288ec90a6fddd94d6",
+    "best_epoch": 123,
+    "epochs_completed": 153,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  },
+  {
+    "method": "full_scaa_dual32",
+    "seed": 4125,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "14d5b80fa1068bbdeee584841e3dbb71c3d44694aa8b83339b42eb946733ab4d",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "59e7ee7a2e9e704a8b700b168d34e0793785c67b4a192d89f023660e177d2569",
+    "best_epoch": 132,
+    "epochs_completed": 162,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  },
+  {
+    "method": "full_scaa_dual32",
+    "seed": 8012,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "a0dce654c6066e8486b9c788ce9c2185f884564954f13b8aaf71869acf7bb2f5",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "dcf92c19ce3bcdfa909387d42e48bafce0c9dc751efe0c191f79a517c9a1b3bb",
+    "best_epoch": 139,
+    "epochs_completed": 169,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  },
+  {
+    "method": "reference_transunet",
+    "seed": 2085,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "8d73d67b4a342522c89637dcbb37de0ed8d2e4000be5f870fc2073ac89e973e8",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "2fe6bae8087068d904e228fb9ee9f5d2d95b5f64c59a1e507ca27421bb950819",
+    "best_epoch": 79,
+    "epochs_completed": 109,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  },
+  {
+    "method": "reference_transunet",
+    "seed": 4125,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "0e46daecacaa828a420f1da704fa67ca097235bfa11a224c1cb9fce458e34ddd",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "a792906c5528a4d3c7f2531141b01102123a1e0f74d5855f326b3a3d8ad6f56c",
+    "best_epoch": 76,
+    "epochs_completed": 106,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  },
+  {
+    "method": "reference_transunet",
+    "seed": 8012,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "a3ff5ac87343c02bae66396fdbe72decd3b86058762fbccf9cd14da1e0b1a8f2",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "c9496c79ac4eb98ade15e7e3d65ef6e7ab09904daa6f01d8ed07eab05000a971",
+    "best_epoch": 84,
+    "epochs_completed": 114,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  },
+  {
+    "method": "reference_unet32",
+    "seed": 2085,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "2f79ca75184eaa2cff07b000e0dd515b7149ba92ec189a44af390fb2e4f1bcfa",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "11b1333321bb865f7827315c4dfe0ed297ac94cbe7d829f274ed06fa57e7ad9c",
+    "best_epoch": 98,
+    "epochs_completed": 128,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  },
+  {
+    "method": "reference_unet32",
+    "seed": 4125,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "0b00c08186e522e140994de16944edc92614b0c7939cac12843cdb8e400a0ebc",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "7b9ea96335fe56c56e35e816869d87f80648de1125e33a0b9e32ca63c06cbdfe",
+    "best_epoch": 147,
+    "epochs_completed": 177,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  },
+  {
+    "method": "reference_unet32",
+    "seed": 8012,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "bd491951c7e93ef42d846153aab1e34d9055dc9a201a671ca30cfb08afd8152e",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "2defe95f8da557c5a1d5d58ef29c7ded827cec6635368ed1edb81d2c93d518cb",
+    "best_epoch": 121,
+    "epochs_completed": 151,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  },
+  {
+    "method": "reference_unet64",
+    "seed": 2085,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "01644daf4520ddf97bf21e5c4e90ae26537560f9b972e62218517febe527a67d",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "d4eadedb8e583ba62153e4475a83cfd16f91f280231326f53f5b5846de15eb7d",
+    "best_epoch": 256,
+    "epochs_completed": 286,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  },
+  {
+    "method": "reference_unet64",
+    "seed": 4125,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "d8b5ed970982996a11238e473646ce3b22d4e7c6c63c707cd79cf993f8062c14",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "5cba7815ce6bc18ea15c86647c2251e598c8f4e46aad5671e278562eaa39d1f4",
+    "best_epoch": 126,
+    "epochs_completed": 156,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  },
+  {
+    "method": "reference_unet64",
+    "seed": 8012,
+    "source_hash": "da82fb62207cea4948afa18b6601ccfbcab277956d690581a234db15ffa5a50e",
+    "config_hash": "dd0c4174a37f1732d01c5e5d13dece2d61ea8fd5bfba4741e294d19fce48eb34",
+    "split_hash": "e90a970da0409c36e3e6e9bbc6dd9836703ab23e8f79defc869a326f7d5fdb36",
+    "checkpoint_sha256": "95ea8de66e829ca10efca5181c056f2b032199f00f66240d81124d3fff2e57f3",
+    "best_epoch": 140,
+    "epochs_completed": 170,
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "torch": "2.7.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "cuda_runtime": "12.8",
+      "cuda_available": true,
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 5090",
+        "memory_GiB": 31.84234619140625
+      }
+    }
+  }
+]

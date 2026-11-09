@@ -1,0 +1,51 @@
+{
+  "name": "reference_unet64_s4125",
+  "seed": 4125,
+  "model": {
+    "width": 64,
+    "depth": 4,
+    "kind": "unet",
+    "padding": "reflect",
+    "fusion": "concat",
+    "axes": "both",
+    "cross_attention": true,
+    "attention_placement": "skip",
+    "gated": true,
+    "content_attention": true,
+    "smoothing": false,
+    "smoothing_kernels": [
+      7,
+      5,
+      3
+    ],
+    "pool_factor": 4,
+    "attention_heads": 4,
+    "key_dim": 8,
+    "query_source": "encoder",
+    "key_source": "auto"
+  },
+  "training": {
+    "epochs": 300,
+    "batch_size": 8,
+    "gradient_accumulation": 2,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW",
+    "early_stopping_patience": 30,
+    "scheduler_patience": 10,
+    "min_delta": 0,
+    "amp": true,
+    "deterministic": false,
+    "gradient_clip": 1,
+    "num_workers": 0
+  },
+  "loss": {
+    "kind": "huber",
+    "beta_local": 0
+  },
+  "metrics": {
+    "tolerance_um": 0.1,
+    "length_mm": 0.1,
+    "mape_epsilon_um": 0.001
+  }
+}
