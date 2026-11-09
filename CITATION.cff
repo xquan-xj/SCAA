@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code or dataset, please cite the accompanying manuscript and this repository."
+title: "SCAA: decoder-guided cross-axis attention for assembly sealing interface morphology inversion"
+abstract: "Reference implementation and prepared finite element dataset for morphology inversion of assembly sealing interfaces. The repository contains the PyTorch training, evaluation and screening code for the SCAA and reference field-prediction networks, 891 prepared finite element cases on a 224 by 224 polar grid with reference morphologies at 570 interface nodes, the fixed 712/89/90 case split, the original run configurations for seeds 2085, 4125 and 8012, and the recorded training curves."
+type: software
+version: 1.0.0
+date-released: 2026-11-09
+license: MIT
+repository-code: "https://github.com/xquan-xj/SCAA"
+url: "https://github.com/xquan-xj/SCAA"
+keywords:
+  - assembly sealing interface
+  - morphology inversion
+  - cross-axis attention
+  - contact mechanics
+  - finite element dataset
+  - pipe flange
+authors:
+  - family-names: Xie
+    given-names: Qiyuan
+    affiliation: "Xi'an Jiaotong University"
+  - family-names: Lin
+    given-names: Qiyin
+    affiliation: "Xi'an Jiaotong University"
+  - family-names: Wang
+    given-names: Chen
+    affiliation: "Xi'an Jiaotong University"
+  - family-names: Zheng
+    given-names: Chengbin
+    affiliation: "Xi'an Aerospace Engine Company Limited"
+  - family-names: Li
+    given-names: Xing
+    affiliation: "Academy of Aerospace Liquid Propulsion Technology"
+  - family-names: Liu
+    given-names: Jiajia
+    affiliation: "Xi'an Aerospace Engine Company Limited"
+  - family-names: Qiu
+    given-names: Mingjun
+    affiliation: "Xi'an Jiaotong University"
+  - family-names: Hong
+    given-names: Jun
+    affiliation: "Xi'an Jiaotong University"

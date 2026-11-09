@@ -1,0 +1,36 @@
+Data license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Qiyuan Xie, Qiyin Lin, Chen Wang, Chengbin Zheng, Xing Li,
+Jiajia Liu, Mingjun Qiu, Jun Hong
+
+This license covers the prepared finite element dataset in data/, the fixed
+case split in splits/, and the recorded training curves and run index in
+run_records/.
+
+You are free to:
+
+  Share  - copy and redistribute the material in any medium or format.
+  Adapt  - remix, transform, and build upon the material for any purpose,
+           even commercially.
+
+Under the following terms:
+
+  Attribution - You must give appropriate credit, provide a link to the
+                license, and indicate if changes were made. You may do so in
+                any reasonable manner, but not in any way that suggests the
+                licensor endorses you or your use.
+
+  No additional restrictions - You may not apply legal terms or technological
+                measures that legally restrict others from doing anything the
+                license permits.
+
+The full legal code of this license is available at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested attribution:
+  Xie, Q., Lin, Q., Wang, C., Zheng, C., Li, X., Liu, J., Qiu, M., & Hong, J.
+  (2026). SCAA prepared finite element dataset for assembly sealing interface
+  morphology inversion (v1.0.0). GitHub. https://github.com/xquan-xj/SCAA
+
+The source code in this repository is released under the MIT license; see
+LICENSE.

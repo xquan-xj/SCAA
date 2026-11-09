@@ -41,3 +41,12 @@ python -m interface_surrogate evaluate --run RUN_DIR --stage test --data data --
 ```
 
 The evaluation command exports predicted heights in micrometers. The `surface.py` module fits a weighted bicubic B-spline, with a nominal knot spacing of 0.5 mm in the main comparison.
+
+## License
+
+- Source code (`runtime_src/`, `surface.py`, `configs/`): MIT, see `LICENSE`.
+- Prepared dataset, case split and run records (`data/`, `splits/`, `run_records/`): CC BY 4.0, see `LICENSE-DATA`.
+
+## Citation
+
+If you use this code or dataset, please cite the accompanying manuscript and this repository. Machine-readable metadata is provided in `CITATION.cff`.
